@@ -10,22 +10,31 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      1. Good one: https://public.tableau.com/views/MakeoverMondayWeek1_17681354515790/TallestRollerCoastersintheWorld?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+      - The visualization is very aesthetic, creative, and draws attention. The visualization employs a creative custom shape that mimics actual roller coaster structures. The roller coaster-shaped bars effectively communicate both the subject matter and the quantitative data simultaneously. The descending order from left to right creates a natural reading pattern that guides the viewer through the data logically.
+      - It includes a text box explaining that roller coasters are ranked by maximum drop height, providing necessary context without cluttering the display, and therefore, avoiding cognitive overload.
 
-
-
-
+      2. Bad one: https://public.tableau.com/app/profile/tanmayjadhav/viz/EVCarsAnalysis/ElectricVehicleDataAnalysis
+      - Excessive Visual Clutter: It's cognitively overloading with too much information and multiple chart types (area chart, map, bar charts, donut chart, and tables) into one view.
+      - Poor Information Architecture: The visualization presents data without a clear story or focal point. It lacks information about the purpose of the graphs. The layout lacks clear visual hierarchy, there's no clear entry point for the viewer. Some acronyms are not explained (e.g., BEV, PHEV). It lacks information of what each graph is about. The source of information is not provided. 
+      - Inconsistent Color Usage: The visualization uses different shades of green inconsistently throughout different graphs. 
+      - Redundant Information Display: The dashboard shows similar metrics multiple times (e.g., "Total Vehicles" appears as both a number and in charts). This redundancy doesn't add value and wastes valuable screen space. The blue texts on top (% of total) are different shades of blue for no apparent reason
+      - Inappropriate Chart Type Selection: The area chart with heavy shading obscures the actual trend line. A simple line chart would communicate the temporal trend more effectively. The donut chart for CAFV eligibility would be clearer as a simple bar chart or text comparison.
+      - Skewed Data source: Most of the data is from the state WA. It's doubtful if the data is representative of the whole nation. I am also doubtful of the intergrity of the data collection process.
 
 
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      1. Good one: It was not intuitive that I had to click on each rollercoaster to get more information about them. At first, I thought they didn't provide any detailed information such as which countries those rollercoasters are from and their height information. It could add some interactivity indicators.
 
-
-
-
+      2. Bad one:
+      - Reduce visual elements: Focus on 2-3 key metrics maximum per view. Some texts can be deleted for redundant information (e.g., Both percentage and actual number are not needed for all data points). 
+      - Establish visual hierarchy and narrative: Use size, position, and gestalt grouping rules to guide viewers through a logical flow.
+      - Consistent color scheme: Use color strategically and consistently throughout the graphs. Also, they need to be used to highlight insights, not just as a mere decoration.
+      - Add clear descriptions for each graph and insights: What each graph is showing should be clearer and also what the take away is from the graph. Need a title for the overall visualization.
+      - Be transparent with the data source.
 
 
       
